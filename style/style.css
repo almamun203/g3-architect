@@ -1,0 +1,50 @@
+/* work sans font */
+  @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600;700;800&display=swap');
+*{
+    font-family: 'Work Sans', sans-serif;
+    margin: 0%;
+}
+header{
+    background: rgba(255, 144, 14, 0.10);
+    margin: 0;
+    padding:20px 200px;
+}
+nav{
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    margin-bottom: 50px;
+}
+nav>h3{
+    font-size:2.5rem;
+    font-weight:700;
+    color:#131313;
+}
+nav>ul{
+    display:flex;
+    
+
+}
+nav li{
+    list-style:none;
+    margin-right:20px;
+    font-weight:500;
+    font-size:1rem;
+}
+nav li a{
+    text-decoration: none;
+    color:#424242;
+}
+
+.banner img{
+    width:100%;
+    height:100%;
+}
+.banner-title{
+    text-align:center;
+    justify-content: center;
+}
+.banner-description{
+    text-align:center;
+    justify-content: space-evenly;
+}
